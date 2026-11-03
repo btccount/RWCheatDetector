@@ -103,6 +103,21 @@ RWCheatDetector 1.0.0
   описание:  RU-чит-клиент для анархии, известен по сборкам под 1.16.5…
 ```
 
+## Загрузка файла в релиз
+
+Скрипт для сопровождающих: открывает системный диалог выбора файла и прикрепляет
+его к релизу. Репозиторий и тег определяются автоматически.
+
+```bash
+./scripts/release-upload.sh                          # последний релиз + выбор файла
+./scripts/release-upload.sh v1.0.0 ./dist/pkg.tar.gz # тег и файл аргументами
+./scripts/release-upload.sh --clobber --file ./report.json
+./scripts/release-upload.sh --dry-run --file README.md
+```
+
+В Finder можно дважды кликнуть `scripts/Загрузить в релиз.command`.
+Если релизов ещё нет, скрипт предложит создать первый.
+
 ## База сигнатур
 
 Файл [`signatures/cheats.json`](signatures/cheats.json) содержит правила для
