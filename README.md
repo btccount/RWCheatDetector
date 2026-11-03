@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/btccount/RWCheatDetector/actions/workflows/ci.yml/badge.svg)](https://github.com/btccount/RWCheatDetector/actions/workflows/ci.yml)
 [![Лицензия: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](pyproject.toml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 
 Открытый детектор чит-клиентов Minecraft. Проверяет JAR-файлы в папке игры,
 содержимое архивов и запущенные процессы по базе сигнатур. Ничего не запускает,
@@ -34,7 +34,7 @@
 
 ## Установка
 
-Нужен Python 3.9 или новее. Сторонних зависимостей нет.
+Нужен Python 3.10 или новее. Сторонних зависимостей нет.
 
 ```bash
 git clone https://github.com/btccount/RWCheatDetector.git

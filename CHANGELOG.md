@@ -10,5 +10,5 @@
 - Коды возврата для CI через `--fail-on`.
 - База сигнатур: Nursultan, Expensive, Wurst, Meteor, Future, RusherHack,
   Impact, Vape, Apollo, Delta, Baritone, X-Ray, эвристика по имени.
-- Тесты на правила и сканер, CI для Python 3.9–3.12.
+- Тесты на правила и сканер, CI для Python 3.10–3.13.
 - Документация: формат сигнатур и описание детекций.
