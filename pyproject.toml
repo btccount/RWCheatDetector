@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rwcheatdetector"
+version = "1.0.0"
+description = "Открытый детектор чит-клиентов Minecraft: JAR-файлы, папка mods и процессы"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "RWCheatDetector contributors" }]
+keywords = ["minecraft", "anticheat", "cheat-detector", "security"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+
+[project.scripts]
+rwcd = "rwcd.cli:main"
+
+[tool.setuptools]
+packages = ["rwcd"]

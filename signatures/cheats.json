@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "updated": "2026-11-04",
+  "notes": "База наполняется сообществом. Совпадение по имени файла или содержимому JAR — повод для ручной проверки, а не доказательство читерства. Хэши добавляются только после проверки конкретной сборки.",
+  "rules": [
+    {
+      "id": "nursultan",
+      "name": "Nursultan",
+      "severity": "high",
+      "description": "RU-чит-клиент для анархии, известен по сборкам под 1.16.5; в сети много крякнутых копий.",
+      "filenames": ["nursultan*.jar", "*nursultan*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["nursultan/", "ru/nursultan/", "me/nursultan/"],
+      "processes": ["nursultan*"]
+    },
+    {
+      "id": "expensive",
+      "name": "Expensive",
+      "severity": "high",
+      "description": "RU-чит-клиент, распространяется в том числе как слитые сборки и исходники.",
+      "filenames": ["expensive*.jar", "*expensive*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["expensive/", "me/expensive/", "ru/expensive/"],
+      "processes": []
+    },
+    {
+      "id": "wurst",
+      "name": "Wurst Client",
+      "severity": "high",
+      "description": "Бесплатный чит-клиент с открытым исходным кодом.",
+      "filenames": ["wurst*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["net/wurstclient/"],
+      "processes": ["wurst*"]
+    },
+    {
+      "id": "meteor",
+      "name": "Meteor Client",
+      "severity": "high",
+      "description": "Популярный Fabric-чит-клиент с открытым исходным кодом.",
+      "filenames": ["meteor-client*.jar", "meteor*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["meteordevelopment/meteorclient/"],
+      "processes": []
+    },
+    {
+      "id": "future",
+      "name": "Future",
+      "severity": "high",
+      "description": "Платный чит-клиент, известен сборками под 1.8.9 и современные версии.",
+      "filenames": ["future*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": []
+    },
+    {
+      "id": "rusherhack",
+      "name": "RusherHack",
+      "severity": "high",
+      "description": "Платный чит-клиент для анархии.",
+      "filenames": ["rusherhack*.jar", "rusher*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": []
+    },
+    {
+      "id": "impact",
+      "name": "Impact",
+      "severity": "high",
+      "description": "Чит-клиент со своим установщиком, известен сборками под старые версии.",
+      "filenames": ["impact*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": ["impact*"]
+    },
+    {
+      "id": "vape",
+      "name": "Vape",
+      "severity": "high",
+      "description": "Платный чит-клиент, часто упоминается в связке с инжекторами.",
+      "filenames": ["vape*.jar", "*vape*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": ["vape*"]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "severity": "high",
+      "description": "Чит-клиент, который часто распространяют через ролики и сторонние зеркала.",
+      "filenames": ["apollo*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": []
+    },
+    {
+      "id": "delta",
+      "name": "Delta Client",
+      "severity": "high",
+      "description": "Чит-клиент, упоминается в подборках для анархии.",
+      "filenames": ["delta*.jar", "delta-client*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": []
+    },
+    {
+      "id": "baritone",
+      "name": "Baritone",
+      "severity": "medium",
+      "description": "Автоматическая навигация и майнинг. Сам по себе не чит-клиент, но на многих серверах запрещён.",
+      "filenames": ["baritone*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["baritone/"],
+      "processes": []
+    },
+    {
+      "id": "xray",
+      "name": "X-Ray мод",
+      "severity": "medium",
+      "description": "Показ руды через стены. Часто маскируется под «оптимизацию» или «визуал».",
+      "filenames": ["*xray*.jar", "*x-ray*.jar"],
+      "sha256": [],
+      "jar_prefixes": ["xray/", "com/xray/"],
+      "processes": []
+    },
+    {
+      "id": "generic-cheat-name",
+      "name": "Подозрительное имя файла",
+      "severity": "low",
+      "description": "Эвристика по имени: cheat, hack, killaura, clicker. Бывает ложное срабатывание.",
+      "filenames": ["*cheat*.jar", "*hack*.jar", "*killaura*.jar", "*clicker*.jar"],
+      "sha256": [],
+      "jar_prefixes": [],
+      "processes": []
+    }
+  ]
+}
